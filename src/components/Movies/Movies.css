@@ -1,0 +1,29 @@
+.movies__item {
+  margin-bottom: 21px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.5px solid rgb(163, 163, 163);
+  background-color: bisque;
+}
+
+.movies__item img {
+  width: 150px;
+  height: 100%;
+}
+.movies__item h1 {
+  font-size: 20px;
+}
+.movies__item button {
+  width: 50px;
+  height: 30px;
+  border: solid 0.2px rgb(189, 189, 189);
+  background-color: rgb(255, 255, 255);
+  color: rgb(122, 122, 122);
+}
+.movies__item button:hover {
+  background-color: rgb(187, 124, 42);
+  color: rgb(255, 255, 255);
+}
